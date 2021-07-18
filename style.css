@@ -1,0 +1,53 @@
+.box {
+	width: 500px;
+	height: 4500px;
+	background-color: red;
+	margin: auto;
+	/* display: flex; */
+	position: relative;
+}
+
+.box.in {
+    background-color: tomato;
+}
+
+.box-parent-1 {
+	width: 400px;
+	height: 400px;
+	background-color: green;
+	margin: auto;
+	display: flex;
+	position: sticky;
+	top: 50px;
+}
+
+.in .box-parent-1 {
+    background-color: white;
+}
+
+.box-parent-2 {
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+	margin: auto;
+	display: flex;
+	/* position: sticky;
+    top: 50px; */
+}
+
+.box1 {
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	margin: auto;
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+	/* bottom: 5px;
+    right: 5px; */
+	/*   left: 180px;
+    right: 0px;
+    top: 0px;
+    bottom: 0; */
+	/*   z-index: 1000; */
+}
