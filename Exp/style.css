@@ -1,0 +1,102 @@
+:root {
+    --primaryColor: #03a9f4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    max-width: 904px;
+    margin: auto;
+}
+
+header {
+    padding: 75px 0 100px 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 570px;
+    margin: auto;
+}
+
+.menu-link {
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    color: var(--primaryColor)
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 420px;
+    margin-bottom: 90px;
+}
+
+.image {
+    margin-bottom: 30px;
+}
+
+.topic {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: rgb(168, 168, 168);
+}
+
+.title {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.load-more {
+    margin: auto;
+    margin-bottom: 70px;
+    display: block;
+    width: 160px;
+    height: 60px;
+    background: none;
+    box-shadow: none;
+}
+
+.load-more::first-letter{
+    text-transform: uppercase
+}
+
+.overlay {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+
+    display: none;
+    opacity: 0;
+
+}
+
+
+ .card:hover .overlay {
+    display: block;
+    opacity: 1;
+}
+
+.img-wrp {
+
+    position: relative;
+
+}
+
+
+
